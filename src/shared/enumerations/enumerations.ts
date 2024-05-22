@@ -8,7 +8,7 @@
 export declare const enum ProviderName {
   FREENAME = "freename",
   UD = "unstoppable",
-  ENS = "ens"
+  ENS = "ens",
 }
 
 /********************* NETWORKS *********************/
@@ -26,7 +26,7 @@ export declare const enum NetworkName {
   AURORA = "aurora",
   CRONOS = "cronos",
   SOLANA_DEVNET = "solana-devnet",
-  SOLANA = "solana"
+  SOLANA = "solana",
 }
 /**
  * Networks supported by Freename.
@@ -34,6 +34,7 @@ export declare const enum NetworkName {
 export declare const enum FreenameNetwork {
   POLYGON = "polygon",
   POLYGON_MUMBAI = "polygon-mumbai",
+  POLYGON_AMOY = "polygon-amoy",
   ETHEREUM = "ethereum",
   BSC = "bsc",
   CRONOS = "cronos",
@@ -72,7 +73,7 @@ export declare const enum FreenameItemType {
 export declare const enum ResolvedResourceType {
   TLD = "tld",
   SECOND_LEVEL_DOMAIN = "domain",
-  UNTYPED = "UNTYPED"
+  UNTYPED = "UNTYPED",
 }
 /**
  * Name types
@@ -80,5 +81,5 @@ export declare const enum ResolvedResourceType {
 export declare const enum NameType {
   TLD = "tld",
   SECOND_LEVEL_DOMAIN = "domain",
-  SUB_DOMAINED_DOMAIN = "sub-domain"
+  SUB_DOMAINED_DOMAIN = "sub-domain",
 }
