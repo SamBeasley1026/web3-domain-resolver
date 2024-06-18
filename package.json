@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@unstoppabledomains/resolution": "9.2.2",
-    "axios": "0.27.2",
+    "axios": "0.28.0",
     "lodash.clonedeep": "4.5.0",
     "lodash.indexof": "4.0.5",
     "lodash.sortby": "4.7.0",
